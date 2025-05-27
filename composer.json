@@ -29,8 +29,13 @@
         "url": "https://asset-packagist.org"
     }],
     "require": {
-        "bower-asset/intl-tel-input": "^16",
-        "giggsey/libphonenumber-for-php": "^8",
+        "bower-asset/intl-tel-input": "^18.1",
+        "giggsey/libphonenumber-for-php": "^8.12",
         "yiisoft/yii2": ">=2.0.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
     }
 }
